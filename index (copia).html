@@ -62,7 +62,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			      <div class="bannerhead">
 				      <h2>My name is <span>Fernando Flores</span></h2>
 				      <h3>Freelance Web Developer</h3>
-				      <p>I'm a freelance web developer focused on but not limited to Frontend.
+				      <p>I'm a freelance web developer focused but not limited on Frontend.
 								I have interest on Data Science, and briefly employed as Freelance Jr Data Scientist.</p>
 								<p>Still an student and starting my career.</p>
 					  <a class="downarrow scroll" href="#about"><span> </span></a>
@@ -86,16 +86,94 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				 with different clients. If you are interested on a deeper explanation about my experience
 			 	 .<a href="">consult my CV here</a> </p></span>
 
-				 <div class="years">
- 				<h4><b>2017</b></h4>
- 				 <span><h4>Freelance Web Developer</h4></span>
- 				 <p><i>I have mainly worked with Vuejs to create progressive web apps for my clients.</i></p>
- 			  </div>
+			  <div class="years">
+				<h4><b>2018</b></h4>
+				 <span><h4>Neurona Wireless</h4></span>
+				 <p><i>Developed their landing page available at <a href="http://www.neuronawireless.com">Neurona Wireless</a></i></p>
+				 <p><i>Was briefly employed as Freelance Jr Data scientist, where i created an
+				 AI which could detect anomalies in crops environment.</i></p>
+			  </div>
+
+			  <div class="years">
+				 <h4><b>2017</b></h4>
+				 <span><h4>Sentio Diagnóstico</h4></span>
+				 <p><i>As Frontend Web Developer my responsabilities included design, maintain, and implement
+				 Vuejs components as part of the system.</i></p>
+			  </div>
+
 				 <a class="arrow scroll" href="#skills"><span> </span></a>
 		  </div>
 	  </div>
 	 <!------About Ends--------->
 
+	<!------SKILLS Starts--------->
+	  <div id="skills" class="skills">
+	  <div class="container">
+	     <div class="skills-grids">
+			  <div class="skill-section text-center">
+				  <h2><span> </span>SKILLS<span> </span></h2>
+			  </div>
+					  <div class="services_grids">
+						  <div id="canvas">
+								<div class="skill-grids text-center">
+										<div class="col-md-3">
+											<div class="skill-grid">
+												<div class="circle" id="circles-1"></div>
+												 <h3>MySql</h3>
+											 </div>
+										</div>
+										<div class="col-md-3">
+											<div class="skill-grid">
+												<div class="circle" id="circles-2"></div>
+												 <h3>AJAX</h3>
+											 </div>
+										</div>
+										<div class="col-md-3">
+											<div class="skill-grid">
+												<div class="circle" id="circles-3"></div>
+												 <h3>PHP</h3>
+											 </div>
+										</div>
+										<div class="col-md-3">
+											<div class="skill-grid">
+												<div class="circle" id="circles-4"></div>
+												 <h3>JAVASCRIPT</h3>
+											 </div>
+										</div>
+										<div class="clearfix"> </div>
+								  </div>
+						   </div>
+					  </div>
+					<!---->
+					 <script type="text/javascript" src="js/circles.js"></script>
+								 <script>
+									var colors = [
+											['#181115', '#30222A'], ['#181115', '#30222A'], ['#181115', '#30222A'], ['#181115', '#30222A']
+										];
+									for (var i = 1; i <= 5; i++) {
+										var child = document.getElementById('circles-' + i),
+											percentage = 50 + (i * 10);
+
+										Circles.create({
+											id:         child.id,
+											percentage: percentage,
+											radius:     80,
+											width:      15,
+											number:   	percentage / 10,
+											text:       '%',
+											colors:     colors[i - 1]
+										});
+									}
+
+					</script>
+
+					<!--/-->
+			 </div>
+		 </div>
+		   <a class="down scroll" href="#port"><span> </span></a>
+	  </div>
+	  </div>
+	 <!------SKILLS Ends--------->
 		 <!------PORTFOLIO Starts--------->
 		 <div id="port" class="Portfolio">
 			  <div class="Portfolio-section text-center">
@@ -104,18 +182,21 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			  <div class="container">
 				  <div class="portfolio-grids">
 					  <div class="portfolio-grid col-md-4">
-						 <a href="http://www.neuronawireless.com"><img src="images/neurona.png"></a>
-						 <span><h4>Neurona Wireless</h4></span>
-						<p><i>Was briefly employed as Freelance Jr Data scientist, where i created an
-						AI which could detect anomalies in crops environment.</i></p>
-						<p><i>Developed their landing page available at <a href="http://www.neuronawireless.com">Neurona Wireless</a></i></p>
+						 <a href="#"><img src="images/monitr1.png"></a>
+						  <p>Proin gravida nibh vel velit auctor aliquet.
+							 Aenean sollicitudin, lorem quis bibendum</p>
 						  <a class="rightarrow" href="#"><span> </span></a>
 					  </div>
 					  <div class="portfolio-grid col-md-4">
-						  <a href="http://www.sentiodiagnostico.info/student"><img src="images/sentio.png"></a>
-							<span><h4>Sentio Diagnóstico</h4></span>
-		 				 <p><i>As Frontend Web Developer my responsabilities included design, maintain, and implement
-		 				 Vuejs components as part of the system.</i></p>
+						  <a href="#"><img src="images/monitr2.png"></a>
+						  <p>Proin gravida nibh vel velit auctor aliquet.
+							 Aenean sollicitudin, lorem quis bibendum</p>
+						  <a class="rightarrow" href="#"><span> </span></a>
+					  </div>
+					  <div class="portfolio-grid col-md-4">
+						  <a href="#"><img src="images/monitr3.png"></a>
+						  <p>Proin gravida nibh vel velit auctor aliquet.
+							 Aenean sollicitudin, lorem quis bibendum</p>
 						  <a class="rightarrow" href="#"><span> </span></a>
 					  </div>
 					  <div class="clear"> </div>
@@ -143,12 +224,26 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						   <a href="#"><img src="images/twt.png"></a>
 						   <a href="#"><img src="images/fb.png"></a>
 					   </div>
-					   <p>You can contact me via linkedin, or directly sending an email at
-							 fernandofloresdev@gmail.com</p>
+					   <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem
+					   quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh
+					   id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.
+					   Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a
+					   ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit.</p>
 				  </div>
 			 </div>
 
 			  <div class="col-md-6">
+				  <div class="footer-right">
+				 <div class="form">
+				 <form>
+					 <input type="text" class="text" value="Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}">
+					 <input type="text" class="text" value="E-mail" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'E-mail';}">
+					 <textarea rows="2" cols="70" onfocus="if(this.value == 'Your Message') this.value='';" onblur="if(this.value == '') this.value='Your Message';" >Your Message</textarea>
+					 <div class="clear"> </div>
+					 <input type="submit" value="SEND">
+				 </form>
+				 </div>
+				  </div>
 				  <div class="clear"></div>
 				  <p class="copy-right">Template by <a href="http://w3layouts.com/">W3layouts</a></p>
 			  </div>
